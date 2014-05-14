@@ -14,7 +14,7 @@ if(isset($_POST['sub'])){
 	
 	$insert = insertRoomMsg($id,$szid,$user,$level,$stat,$date,$msg);
 	if($insert==1){
-		header("location: room.php?szid=$szid");
+		header("location: /atla/room/$szid");
 	}else print "Sikertelen bevitel";
 	
 }

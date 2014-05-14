@@ -1,0 +1,400 @@
+body {
+	background-color:#f0f2e3;
+
+}
+
+.content {
+	width:960px;
+	margin:0 auto;
+	background-color:#f0f2e3;
+}
+img {
+	border:0;
+}
+.lefttext {
+	text-align:left;
+}
+.righttext {
+	text-align:right;
+}
+.centertext {
+	text-align:center;
+}
+/*----------header--------- */
+.head {
+	width:950px;
+	padding:5px;
+	min-height:100px;
+		background-color: #e3e5d7;
+		background: -moz-linear-gradient(top, #e3e5d7 20%, #bab8b1 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e5d7), to(#bab8b1));
+		background: -ms-linear-gradient(#e3e5d7, #bab8b1);
+		background-image: -o-linear-gradient(top, #e3e5d7, #bab8b1); /* Opera 11.10-12.00 */
+}
+.felsosavleft {
+	width:390px;
+	padding:5px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #bab8b1;
+		background: -moz-linear-gradient(top, #e3e5d7 20%, #bab8b1 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e5d7), to(#bab8b1));
+		background: -ms-linear-gradient(#e3e5d7, #bab8b1);
+		background-image: -o-linear-gradient(top, #e3e5d7, #bab8b1); /* Opera 11.10-12.00 */
+}
+	.felsosavleft a {
+		text-decoration:none;
+		background-color: #bab8b1;
+		padding:5px 10px 0 10px;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.headleft {
+		width:400px;
+		float:left;
+		padding:0;
+	}
+	.headleft a {
+		color:black;
+		margin:0;
+		padding-bottom:0;
+	}
+	.headright {
+		width:540px;
+		float:right;
+		min-height:70px;
+	}
+	.headbannleft{
+		padding:5px 0 0 0;
+	}
+	.headbanner {
+		width:540px;
+		margin-top:5px;
+		float:right;
+		min-height:70px;
+	}
+	.felsosavright {
+		width:530px;
+		padding:5px;
+		min-height:15px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #bab8b1;
+		background: -moz-linear-gradient(top, #e3e5d7 20%, #bab8b1 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e5d7), to(#bab8b1));
+		background: -ms-linear-gradient(#e3e5d7, #bab8b1);
+		background-image: -o-linear-gradient(top, #e3e5d7, #bab8b1); /* Opera 11.10-12.00 */
+	}
+	.menu {
+		width:960px;
+		margin:0;
+		padding:0;
+		min-height:25px;
+		background-color: #e3e5d7;
+		background: -moz-linear-gradient(top, #bab8b1 20%, #e3e5d7 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#bab8b1), to(#e3e5d7));
+		background: -ms-linear-gradient(#bab8b1, #e3e5d7);
+		background-image: -o-linear-gradient(top, #bab8b1, #e3e5d7); /* Opera 11.10-12.00 */
+		clear:both;
+	}
+	.katmenu{
+		list-style:none;
+		padding:0 5px 0 5px;
+		margin:0 auto;
+		min-height:65px;
+	}
+	.katmenu li {
+		display:block;
+		float:left;
+		margin:0 5px 1px 0;
+	}
+	.katmenu a {
+		height:25px;
+		display:inline;
+		float:left;
+		text-align:center;
+		text-decoration:none;
+		color:black;
+		padding:5px 10px 0 10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #bab8b1;
+		background: -moz-linear-gradient(top, #e3e5d7 20%, #bab8b1 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e5d7), to(#bab8b1));
+		background: -ms-linear-gradient(#e3e5d7, #bab8b1);
+		background-image: -o-linear-gradient(top, #e3e5d7, #bab8b1); /* Opera 11.10-12.00 */
+	}
+	.katmenu a:visited {
+		text-align:center;
+		}
+	.katmenu .active {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		text-align:center;
+		background: -moz-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#bab8b1), to(#e3e5d7));
+		background: -ms-linear-gradient(#bab8b1, #e3e5d7);
+		background-image: -o-linear-gradient(top, #bab8b1, #e3e5d7); /* Opera 11.10-12.00 */
+		color:red;
+		
+	}
+	.katmenu a:hover {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		background: #e3e5d7;
+		background: -moz-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#bab8b1), to(#e3e5d7));
+		background: -ms-linear-gradient(#bab8b1, #e3e5d7);
+		background-image: -o-linear-gradient(top, #bab8b1, #e3e5d7); /* Opera 11.10-12.00 */
+		color:white;
+	}
+/*----------header end--------- */
+/*----------  tartalom  --------- */
+.tartalom {
+	width:960px;
+	min-height:500px;
+	display:block;
+}
+
+#cikkek {
+	width:650px;
+	padding:0 5px 0 0;
+	float:left;
+	min-height:500px;
+}
+	.cimsav {
+		min-height:30px;
+		padding:2px 0 0 10px;
+	}
+	.kiemelt {
+		width:650px;
+		height:300px;
+	}
+	.cim {
+		width:620px;
+		height:25px;
+		float:left;
+		margin:0;
+		padding:2px 0 0 10px;
+		display:block;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		background-color: #bab8b1;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab8b1', endColorstr='#bab8b1');
+		background: -moz-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background: -webkit-gradient(linear, left top, left bottom, from(#bab8b1), to(#e3e5d7));
+		background: -ms-linear-gradient(#bab8b1, #e3e5d7);
+	}
+	.felh {
+		width:300px;
+		height:25px;
+		margin:0 0 0 300px;
+		padding:2px 0 0 10px;
+		display:block;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		background-color: #bab8b1;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab8b1', endColorstr='#bab8b1');
+		background: -moz-linear-gradient(top, #bab8b1 0%, #e3e5d7 100%);
+		background: -webkit-gradient(linear, left top, left bottom, from(#bab8b1), to(#e3e5d7));
+		background: -ms-linear-gradient(#bab8b1, #e3e5d7);
+	}
+	.friss {
+		width:650px;
+		float:left;
+	}
+	.clear {
+		clear:both;
+	}
+	.baloszlop {
+		width:320px;
+		float:left;
+	}
+	.jobboszlop {
+		width:320px;
+		float:right;
+	}
+	.cikk {
+		padding:5px;
+		margin:0 0 10px 0;
+		min-height:200px;
+		border:1px solid;
+		border-color: #bab8b1;
+		box-shadow:5px 5px 5px #bab8b1;
+	}
+	.searched {
+		padding:5px;
+		margin:5px 0 10px 0;
+		height:100px;
+		border:1px solid;
+		border-color: #bab8b1;
+		box-shadow:5px 5px 5px #bab8b1;
+	}
+	.frisscikk {
+		padding:5px;
+		margin:0 0 10px 0;
+		display:block;
+		height:220px;
+		border:1px solid;
+		border-color: #bab8b1;
+		box-shadow:5px 5px 5px #bab8b1;
+	}
+	.morecikk a{
+		width:220px;
+		display:block;
+		margin:0;
+		padding:0;
+		color:blue;
+	}
+	figure {
+		display: block;
+		margin:5px 5px 0 0;
+		float:left;
+	}
+	.cikk img, .frisscikk img {
+		float:left;
+		margin-right:5px;
+	}
+	.bev {
+		min-height:130px;
+		margin-top:0;
+		font-weight:bold;
+	}
+		.cikk  a, .frisscikk a, .searched a{
+			margin:0;
+			padding:0;
+			color:black;
+			text-decoration:none;
+		}
+		.cikk a:hover, .frisscikk a:hover, .searched a:hover {
+			background-color: #bab8b1;
+			color:white;
+		}
+	.cikk h3, .frisscikk h4, .frisscikk h3, .tovabbi h3, .searched h3 {
+		margin:0 0 5px 0;
+		padding:5px;
+		background-color: #bab8b1;
+	}
+	.torzs {
+		clear:both;
+		width:630px;
+		padding:5px;
+		margin-top:5px;
+	}
+	.torzs h3 {
+		background:none;
+	}
+	.torzs img {
+		display:block;
+		margin:0 auto;
+		padding-top:10px;
+		float:none;
+	}
+	.hszam {
+		font-size:12px;
+		color:white;
+	}
+	.date {
+		font-size:12px;
+		color: #999999;
+		margin:0 0 10px 0;
+		padding:0;
+	}
+	.hsz{
+		margin:5px 0 5px 0;
+		padding:5px;
+		display:block;
+		border:1px solid;
+		border-color: #787878;
+	}
+	.hszform {
+		width:450px;
+		margin:20px auto;
+	}
+	.reg {
+		padding:5px;
+		margin:5px 0 10px 0;
+		display:block;
+		min-height:250px;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+	}
+	.lapozo {
+		text-align:center;
+		font-size:0.8em;
+	}
+	.bovebben a{
+		width:80px;
+		color:blue;
+		float:right;
+	}
+	.bovebben a:hover {
+		background:none;
+		color:black;
+	}
+
+#banners {
+	width:290px;
+	float:right;
+	min-height:1000px;
+	padding:0px 5px 0 5px;
+}
+	.banner {
+		margin:10px 0 10px 0;
+	}
+	.logged {
+		margin:0 0 20px 0;
+		padding:5px;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		line-height:1.5em;
+	}
+	.search {
+		min-height:25px;
+		padding:5px 0 0 5px;
+	}
+	.topsee, .topsees {
+		border:1px solid;
+		border-color: #787878;
+		padding:5px;
+	}
+	.tovabbi {
+		padding:5px;
+		margin:0 0 20px 0;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		
+	}
+	.tovabbi ul {
+		list-style:none;
+	}
+		.tovabbi li {
+			margin-left:-15px;
+		}
+		.tovabbi a {
+			display:block;
+			font-size:1.2em;
+			color:black;
+			line-height:30px;
+		}
+/*----------  tartalom v�ge --------- */
+/*----------footer--------- */
+.footer {
+	clear:both;
+	width:950px;
+	padding:5px;
+	background:green;
+	min-height:150px;
+	display:block;
+}
+/*----------footer end--------- */

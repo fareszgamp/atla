@@ -1,0 +1,232 @@
+body {
+	font-family:arial;
+	background-color:#f0f2e3;
+}
+
+.content {
+	width:100%;
+	margin:0 auto;
+}
+img {
+	border:0;
+}
+.lefttext {
+	text-align:left;
+}
+.righttext {
+	text-align:right;
+}
+.centertext {
+	text-align:center;
+}
+/*----------header--------- */
+.head {
+	width:100%;
+	padding:0 0 5px 0;
+margin:0;
+color:white;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+}
+.head a {
+color:white;
+}
+
+	.headmenu {
+		width:100%;
+		padding:0;
+		min-height:90px;
+	background-color:#b3b3d2;
+color:white;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.menu {
+width:50%;
+float:right;
+margin-right:1px;
+		padding:0;
+	}
+.menuleft {
+width:49%;
+float:left;
+}
+	.katmenu{
+		list-style:none;
+		padding:0;
+		margin:0 auto;
+	}
+	.katmenu li {
+		width:100%;
+		display:block;
+		float:left;
+	}
+	
+	.katmenu a {
+		width:100%;
+		height:25px;
+		display:inline;
+		float:left;
+		text-align:center;
+		text-decoration:none;
+		color:white;
+		padding:5px 0 0 0;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+.aktiv a{
+color:white;
+}
+	.aktiv {
+		width:100%;
+		height:30px;
+		display:block;
+		padding:5px 0 0 0;
+		text-align:center;
+		text-decoration:none;
+		color:white;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+
+/*----------header end--------- */
+/*----------  tartalom  --------- */
+.tartalom {
+	width:100%;
+	min-height:500px;
+	display:block;
+}
+
+#kozep {
+	padding:0;
+margin:0;
+}
+table {
+	text-align:center;
+	margin:0 auto;
+}
+
+figure {
+	margin:0 auto;
+}
+
+	.clear {
+		clear:both;
+	}
+	.baloszlop {
+		float:left;
+	}
+	.jobboszlop {
+		float:right;
+	}
+	.reg {
+		margin:1px 0 10px 0;
+		display:block;
+		min-height:250px;
+		text-align:left;
+		word-wrap: break-word;
+	}
+	.szoba a{
+		text-decoration:none;
+		color:blue;
+	}
+	.online a{
+		text-decoration:none;
+		color:green;
+	}
+	.outline a{
+		text-decoration:none;
+		color:gray;
+	}
+	.lapozo {
+width:50%;
+clear:both;
+margin:0 auto;
+		text-align:center;
+		font-size:0.7em;
+	}
+.lapozo a {
+display:block;
+padding:2px 4px 2px 5px;
+border-style:ridge;
+float:left;
+}
+#banners {
+	float:right;
+	min-height:1000px;
+	padding:0px 5px 0 5px;
+}
+	.banner {
+		margin:10px 0 10px 0;
+	}
+	.logged {
+		margin:0 0 20px 0;
+		padding:5px;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		line-height:1.5em;
+	}
+	.topsee, .topsees {
+		height:300px;
+		overflow-y:scroll;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		padding:5px;
+	}
+	.tovabbi {
+		padding:5px;
+		margin:0 0 20px 0;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		
+	}
+	.tovabbi ul {
+		list-style:none;
+	}
+		.tovabbi li {
+			margin-left:-15px;
+		}
+		.tovabbi a {
+			display:block;
+			font-size:1.0em;
+			color:black;
+			line-height:30px;
+		}
+/*----------  tartalom v�ge --------- */
+/*----------footer--------- */
+.footer {
+	clear:both;
+	padding:5px;
+	background:green;
+	min-height:50px;
+	display:block; 	
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+}
+/*----------footer end--------- */

@@ -1,0 +1,144 @@
+body {
+	font-family:arial;
+}
+
+.content {
+	width:100%;
+	margin:0 auto;
+}
+img {
+	border:0;
+}
+.lefttext {
+	text-align:left;
+}
+.righttext {
+	text-align:right;
+}
+.centertext {
+	text-align:center;
+}
+/*----------header--------- */
+.head {
+	width:100%;
+	padding:0;
+margin:0;
+}
+
+	.menu {
+width:100%;
+		margin:0;
+		padding:0;
+	}
+	.katmenu {
+		list-style:none;
+		margin:0;
+padding:0;
+	}
+	.katmenu li {
+		width:100%;
+		display:block;
+	}
+
+/*----------header end--------- */
+/*----------  tartalom  --------- */
+.tartalom {
+	width:100%;
+	min-height:500px;
+	display:block;
+}
+
+#kozep {
+	padding:0;
+margin:0;
+}
+table {
+	text-align:center;
+	margin:0 auto;
+}
+
+figure {
+	margin:0 auto;
+}
+
+	.clear {
+		clear:both;
+	}
+	.baloszlop {
+		float:left;
+	}
+	.jobboszlop {
+		float:right;
+	}
+	.reg {
+		margin:1px 0 10px 0;
+		display:block;
+		min-height:250px;
+		text-align:left;
+	}
+	.szoba a{
+		text-decoration:none;
+		color:blue;
+	}
+	.online a{
+		text-decoration:none;
+		color:green;
+	}
+	.outline a{
+		text-decoration:none;
+		color:gray;
+	}
+
+#banners {
+	float:right;
+	min-height:1000px;
+	padding:0px 5px 0 5px;
+}
+	.banner {
+		margin:10px 0 10px 0;
+	}
+	.logged {
+		margin:0 0 20px 0;
+		padding:5px;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		line-height:1.5em;
+	}
+	.topsee, .topsees {
+		height:300px;
+		overflow-y:scroll;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		padding:5px;
+	}
+	.tovabbi {
+		padding:5px;
+		margin:0 0 20px 0;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		
+	}
+	.tovabbi ul {
+		list-style:none;
+	}
+		.tovabbi li {
+			margin-left:-15px;
+		}
+		.tovabbi a {
+			display:block;
+			font-size:1.0em;
+			color:black;
+			line-height:30px;
+		}
+/*----------  tartalom v�ge --------- */
+/*----------footer--------- */
+.footer {
+	clear:both;
+	padding:5px;
+	display:block;
+}
+/*----------footer end--------- */

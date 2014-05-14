@@ -1,0 +1,367 @@
+@font-face {
+font-family: "Italianno Regular";
+src: url("http://atlantiszchat.hu/images/italianno-regular.ttf")
+}
+body {
+	background:#ffe5e5;
+	font-family:arial;
+
+}
+.content {
+	width:960px;
+	margin:0 auto;
+	background-color:#ffe5e5;
+}
+img {
+	border:0;
+}
+.lefttext {
+	text-align:left;
+}
+.righttext {
+	text-align:right;
+}
+.centertext {
+	text-align:center;
+}
+/*----------header--------- */
+.head {
+	width:950px;
+	padding:5px;
+	min-height:100px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+}
+.felsosavleft {
+	width:460px;
+	padding:5px;
+	float:left;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+}
+	.felsosavleft a {
+		text-decoration:none;
+		padding:5px 10px 0 10px;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.headleft {
+		width:716px;
+		float:left;
+		padding:0;
+	}
+	.headleft a {
+		color:black;
+		margin:0;
+		padding-bottom:0;
+	}
+	.headright {
+		width:216px;
+		float:right;
+		min-height:70px;
+	}
+	.headbannleft{
+	width:216px;
+		padding:5px 0 0 0;
+		float:left;
+	}
+	.headbannleftright {
+		width:500px;
+		float:right;
+		text-align:center;
+	}
+	.headbannleftright h1 {
+		margin:5px 0 5px 0;
+		padding:0;
+	letter-spacing: 0.139em;
+		text-align:center;
+		font-family: 'Italianno Regular';
+		font-size:2.2em;
+		color:gold;
+	}
+	.headbanner {
+		width:216px;
+		margin-top:5px;
+		float:right;
+		min-height:70px;
+	}
+	.felsosavright {
+		width:465px;
+		padding:5px;
+		min-height:15px;
+		float:right;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.menu {
+		margin:0;
+		padding:0;
+		min-height:25px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+		clear:both;
+	}
+	.katmenu{
+		list-style:none;
+		padding:0 5px 0 5px;
+		margin:0 auto;
+		min-height:65px;
+	}
+	.katmenu li {
+		width:150px;
+		display:block;
+		float:left;
+		margin:0 5px 1px 0;
+	}
+	.katmenu a {
+		width:130px;
+		height:25px;
+		display:inline;
+		float:left;
+		text-align:center;
+		text-decoration:none;
+		color:black;
+		padding:5px 10px 0 10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.katmenu a:visited {
+		text-align:center;
+		}
+	.katmenu .active {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		text-align:center;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+		color:red;
+		
+	}
+	.katmenu a:hover {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+		color:white;
+	}
+/*----------header end--------- */
+/*----------  tartalom  --------- */
+.tartalom {
+	width:960px;
+	min-height:500px;
+	display:block;
+}
+
+#kozep {
+	width:650px;
+	padding:0 5px 0 0;
+	float:left;
+	min-height:500px;
+}
+.single  {
+  float: left;
+  width:190px;
+  min-height:190px;
+}
+.sortav {
+	line-height:200%;
+}
+
+figure {
+	width:400px;
+	margin:0 auto;
+}
+	.cimsav {
+		height:25px;
+		margin:2px 0 0 0;
+		padding:2px 0 0 10px;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9798aa', endColorstr='#bab8b1');
+		
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.felh {
+		width:300px;
+		height:25px;
+		margin:0 0 0 300px;
+		padding:2px 0 0 10px;
+		display:block;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9798aa', endColorstr='#bab8b1');
+		
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+	}
+	.clear {
+		clear:both;
+	}
+	.baloszlop {
+		width:320px;
+		float:left;
+	}
+	.jobboszlop {
+		width:320px;
+		float:right;
+	}
+	.reg {
+		padding:5px;
+		margin:1px 0 10px 0;
+		
+	background-image:url('/images/karacsony01.gif');
+	background-repeat:no-repeat;
+	background-position:right bottom; 
+		display:block;
+		min-height:250px;
+		overflow:hidden;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		word-wrap: break-word;
+	}
+	.blog p {
+		margin:0;
+	}
+	.szoba a{
+		text-decoration:none;
+		color:blue;
+	}
+	.online a{
+		text-decoration:none;
+		color:green;
+	}
+	.outline a{
+		text-decoration:none;
+		color:gray;
+	}
+	.info {
+		width:30%;
+		float:left;
+		margin:5px 0 0 0;
+		padding:0;
+		display:block;
+	}
+	.lapozo {
+		text-align:center;
+		font-size:0.7em;
+	}
+	.szoveg {
+		width:70%;
+		float:right;
+		margin:5px 0 0 0;
+		padding:0;
+		display:block;
+	}
+
+#banners {
+	width:290px;
+	float:right;
+	min-height:1000px;
+	padding:0px 5px 0 5px;
+}
+	.banner {
+		margin:10px 0 10px 0;
+	}
+	.logged {
+		margin:0 0 20px 0;
+		padding:5px;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		line-height:1.5em;
+	}
+	.topsee, .topsees {
+		height:300px;
+		overflow-y:scroll;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		padding:5px;
+	}
+	.tovabbi {
+		padding:5px;
+		margin:0 0 20px 0;
+		background-color:white;
+		border:1px solid;
+		border-color: #787878;
+		box-shadow:5px 5px 5px #bab8b1;
+		
+	}
+	.tovabbi ul, .topsee ul {
+		list-style:none;
+	}
+		.tovabbi li, .topsee li {
+			margin-left:-30px;
+		}
+		.tovabbi a {
+			display:block;
+			color:black;
+			line-height:30px;
+		}
+/*----------  tartalom vége --------- */
+/*----------footer--------- */
+.footer {
+	clear:both;
+	width:950px;
+	padding:5px;
+	min-height:100px;
+	display:block;
+		background-color: #ff8a8a;
+		background: -moz-linear-gradient(top, #ff8a8a 20%, #8c0000 100%);
+		background-image: -webkit-linear-gradient(top, #8c0000 0%, #ff8a8a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8a8a), to(#8c0000));
+		background: -ms-linear-gradient(#ff8a8a, #8c0000);
+		background-image: -o-linear-gradient(top, #ff8a8a, #8c0000); /* Opera 11.10-12.00 */
+}
+/*----------footer end--------- */
